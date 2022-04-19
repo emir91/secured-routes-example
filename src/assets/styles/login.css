@@ -1,0 +1,47 @@
+:root {
+  --center: center;
+  --spacing: 1pt;
+}
+
+.text-center {
+  text-align: var(--center);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: var(--center);
+  align-items: var(--center);
+  height: 80vh;
+}
+
+.form-wrapper {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px rgba(165, 165, 165, 0.5);
+  padding: 1em;
+}
+
+.form-title {
+  letter-spacing: var(--spacing);
+}
+
+.form-control {
+  padding: 1em;
+}
+
+.form-field {
+  margin-left: 0.5em;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 0.5em 2em;
+  background-color: #7169ff;
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: var(--spacing);
+  border: none;
+  border-radius: 5px;
+}
