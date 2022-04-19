@@ -1,4 +1,5 @@
 import React from "react"
+import Logout from "./Logout"
 
 const Private2 = () => {
   return (
@@ -6,6 +7,8 @@ const Private2 = () => {
       <h1>Private page 2</h1>
 
       <p>Even more secret info here.</p>
+
+      <Logout />
     </div>
   )
 }
