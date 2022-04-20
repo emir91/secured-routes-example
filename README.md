@@ -1,3 +1,3 @@
-# Secure Routes Example
+# Secured Routes Example
 
-Create Secure Routes
+Create Secured Routes
