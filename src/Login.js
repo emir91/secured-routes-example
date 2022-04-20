@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { Link } from "react-router-dom"
 import useSecurity from "./useSecurity"
 import "./assets/styles/login.css"
 
@@ -44,6 +45,7 @@ const Login = () => {
           </div>
         </form>
       </div>
+      <Link to='/'>Back to Home</Link>
     </div>
   )
 }

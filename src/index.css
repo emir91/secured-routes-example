@@ -6,3 +6,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.5em 2em;
+  background-color: #7169ff;
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: var(--spacing);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
